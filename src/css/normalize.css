@@ -464,10 +464,11 @@ Preloader Area CSS
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 	border-radius:4px;
+background-color: red;	
 }
 .btn:hover:before{
 	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
+	background-color: red;
 }
 .section{
 	padding:100px 0;
@@ -476,6 +477,7 @@ Preloader Area CSS
 	text-align: center;
     margin-bottom: 60px;
     padding: 0 250px;
+	background-color: aliceblue;
 }
 .section-title h2 {
 	font-size: 32px;

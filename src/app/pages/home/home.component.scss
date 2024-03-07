@@ -1,0 +1,109 @@
+.single-content {
+    margin-top: 20px; /* Adjust the value according to your design needs */
+  }
+  .button{
+    margin-bottom: 50px;
+  }
+  .schedule {
+    margin-bottom: 40px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .wrapper {
+    max-width: 768px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    // background-color: bisque;
+    position: relative;
+    justify-content: baseline;
+    margin-left: 25em;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.single-fun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.single-fun i,
+.single-fun img {
+    max-width: 100%; /* Ensure that icons/images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some spacing between icon/image and text */
+}
+.pricing-palden[_ngcontent-serverApp-c7] .pricing-price[_ngcontent-serverApp-c7] {
+    font-size: 5em;
+    font-weight: 700;
+    padding: 0;
+    color: #fff;
+    margin: 0 0 0.25em;
+    line-height: .75;
+}
+
+    .price {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .amount {
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+    }
+
+    .amount span {
+        font-size: 14px;
+        color: #777;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 5px 0 15px;
+        color: #555;
+    }
+
+    h4 {
+        font-size: 24px;
+        margin: 0;
+        padding: 10px;
+        color: #fff;
+        background-color: #3498db;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    h4:hover {
+        background-color: #2980b9;
+    }
+
+    /* Animation */
+    .price:hover .amount {
+        animation: shake 0.5s ease-in-out;
+        border-radius: 2%;
+    }
+
+    @keyframes shake {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        25%, 100% {
+            transform: translateX(-5px);
+        }
+        50% {
+            transform: translateX(5px);
+        }
+    }
+
