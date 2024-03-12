@@ -370,6 +370,7 @@ visibility:hidden;
 -webkit-transition:all 0.4s ease;
 -moz-transition:all 0.4s ease;
 transition:all 0.4s ease;
+align-items: center;
 }
 .header .nav li.active a:before{
 opacity:1;
@@ -627,6 +628,7 @@ font-weight: 700;
 margin: 0;
 padding: 0;
 line-height: 42px;
+padding-right: 112px;
 }
 .slider .single-slider h1 span{
 color:#1a76d1;
@@ -1884,7 +1886,7 @@ padding: 50px;
 .doctor-details-item .doctor-details-contact h3 {
 font-weight: 600;
 font-size: 20px;
-color: #2C2D3F;
+color: red;
 margin-bottom: 30px;
 }
 .doctor-details-item .doctor-details-contact .basic-info {
@@ -1896,7 +1898,7 @@ list-style-type: none;
 display: block;
 font-weight: 400;
 font-size: 15px;
-color: #2C2D3F;
+color: red;
 margin-bottom: 10px;
 }
 .doctor-details-item .doctor-details-contact .basic-info li:last-child {
