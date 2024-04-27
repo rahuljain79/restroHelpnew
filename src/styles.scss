@@ -302,10 +302,10 @@ margin-right:0;
 font-size:14px;
 }
 .header .top-contact li a:hover{
-color:#1A76D1;
+color:#d11a1d;
 }
 .header .top-contact li i{
-color:#1A76D1;
+color:#d11a1a;
 margin-right:8px;
 }
 .header .header-inner {
@@ -318,7 +318,8 @@ margin-top:12px;
 }
 .get-quote .btn{
 color:#f9ecec;
-background-color: red;
+background-color:red;
+padding-left: 20px;
 }
 .header .logo {
 float: left;
@@ -628,7 +629,7 @@ font-weight: 700;
 margin: 0;
 padding: 0;
 line-height: 42px;
-padding-right: 112px;
+padding-left: 126px;
 }
 .slider .single-slider h1 span{
 color:#1a76d1;
@@ -637,13 +638,15 @@ color:#1a76d1;
 color: #2C2D3F;
 margin-top: 27px;
 font-weight: 400;
+padding-left: 128px;
 }
 .slider .single-slider .button{
 margin-top:30px;
+margin-left: 13rem;
 }
 .slider .single-slider .btn{
 color:#fff;
-background:#1a76d1;
+background:red;
 font-weight:500;
 display:inline-block;
 margin:0;
@@ -1774,6 +1777,10 @@ color:#fff;
 }
 .team .section-title p{
 color:#fff;
+font-size: 11px;
+    color: #888;
+    margin-top: -52px;
+
 }
 .team .single-team {
 background: #fff;

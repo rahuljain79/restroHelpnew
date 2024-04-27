@@ -10,13 +10,14 @@ import { HeaderComponent } from '../header/header.component';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  userform:FormGroup | undefined;
   formGroup = new FormGroup({
     name : new FormControl(null),
     email: new FormControl(null),
     phone: new FormControl(null),
     city: new FormControl(null),
-    restaurant: new FormControl(null),
-    current: new FormControl(null),
+    // restaurant: new FormControl(null),
+    // current: new FormControl(null),
     outletType: new FormControl(),
     date: new FormControl(),
 
